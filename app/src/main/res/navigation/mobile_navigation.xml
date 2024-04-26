@@ -6,20 +6,31 @@
     app:startDestination="@+id/navigation_home">
 
     <fragment
-        android:id="@+id/navigation_home"
-        android:name="Manuel.Ortega.emulador_20220416_manuel.ui.home.HomeFragment"
-        android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
-
-    <fragment
-        android:id="@+id/navigation_dashboard"
+        android:id="@+id/navegation_Inicio"
         android:name="Manuel.Ortega.emulador_20220416_manuel.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
+        android:label="Inicio"
         tools:layout="@layout/fragment_dashboard" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
+        android:id="@+id/navigation_Perfil"
+        android:name="Manuel.Ortega.emulador_20220416_manuel.ui.dashboard.DashboardFragment"
+        android:label="Perfil"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_informacion"
         android:name="Manuel.Ortega.emulador_20220416_manuel.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
+        android:label="informacion"
         tools:layout="@layout/fragment_notifications" />
+
+    <fragment
+        android:id="@+id/navigation_contactanos"
+        android:name="Manuel.Ortega.emulador_20220416_manuel.ui.notifications.NotificationsFragment"
+        android:label="contactanos"
+        tools:layout="@layout/fragment_notifications" />
+
+
+
+
+
 </navigation>
